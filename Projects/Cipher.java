@@ -13,7 +13,6 @@ public class Cipher {
 			//Program start
 		System.out.println("Welcome to my Cipher program." );
 		System.out.println("Please enter 5 numbers between 0 and 19." );
-		System.out.println();
 			//Name variables for each number added
 		int num1, num2, num3, num4, num5;
  	
