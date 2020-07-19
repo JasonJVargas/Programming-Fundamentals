@@ -70,10 +70,10 @@ public class Cipher {
 				
 				System.out.println("Your random key is " + numRand);
 					
-				/*If else condition to deal with a number being < 10.
-				 * The actual steps will be commented on in the else
-				 */
-			if (numSum <10) {
+					/*If else condition to deal with a number being < 10.
+					 * The actual steps will be commented on in the else
+					 */
+				if (numSum <10) {
 				
 				int digit1 = 0;
 				int digit2 = numSum % 10;
@@ -82,14 +82,15 @@ public class Cipher {
 				int n2 = (digit2 + numRand) % 10;
 			
 				System.out.print("Your encoded number is: " + n1 + "" + n2);}
-			else {
-				
+					//Else statement for values >10
+				else {
+					//Using  operators to separate the digits
 			 	int digit1 = numSum / 10;
-			    int digit2 = numSum % 10;
+			    	int digit2 = numSum % 10;
 			        
 			       // Create cypher of digits and print
-			    int n1 = (digit1 + numRand) % 10;
-			    int n2 = (digit2 + numRand) % 10;
+			  	int n1 = (digit1 + numRand) % 10;
+			    	int n2 = (digit2 + numRand) % 10;
 			        
 			        System.out.print("Your encoded number is " + n1 + "" + n2);
 
