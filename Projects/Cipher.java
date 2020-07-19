@@ -13,6 +13,7 @@ public class Cipher {
 			//Program start
 		System.out.println("Welcome to my Cipher program." );
 		System.out.println("Please enter 5 numbers between 0 and 19." );
+		
 			//Name variables for each number added
 		int num1, num2, num3, num4, num5;
  	
@@ -67,7 +68,7 @@ public class Cipher {
 				Random rand = new Random();
 				int numRand = rand.nextInt((9)+1);
 				
-				System.out.println("Your random key is : " + numRand);
+				System.out.println("Your random key is " + numRand);
 					
 				/*If else condition to deal with a number being < 10.
 				 * The actual steps will be commented on in the else
@@ -90,7 +91,7 @@ public class Cipher {
 			    int n1 = (digit1 + numRand) % 10;
 			    int n2 = (digit2 + numRand) % 10;
 			        
-			        System.out.print("Your encoded number is: " + n1 + "" + n2);
+			        System.out.print("Your encoded number is " + n1 + "" + n2);
 
 				
 							}
