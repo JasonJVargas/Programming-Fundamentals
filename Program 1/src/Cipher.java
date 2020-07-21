@@ -60,7 +60,7 @@ public class Cipher {
 
 		// Create a variable to store the sums and then print
 		int numSum = (num1 + num2 + num3 + num4 + num5);
-		
+
 		System.out.println();
 		System.out.println("Total =  " + numSum);
 
