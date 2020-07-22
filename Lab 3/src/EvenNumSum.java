@@ -4,7 +4,7 @@ public class EvenNumSum {
 
 	public static void main(String[] args) {
 
-		System.out.println("Enter a number to see the sum of all numbers between 2 and your input.");
+		System.out.println("Enter a number to see the sum of all even numbers between 2 and your input.");
 		System.out.print("What is your number? ");
 
 		// Create a variable for user input and get user input
@@ -30,7 +30,7 @@ public class EvenNumSum {
 			}
 		}
 
-		System.out.print("The sum of your numbers between 2 and " + numInput + " is: " + sumEvens);
+		System.out.print("The sum of even numbers between 2 and " + numInput + " is: " + sumEvens);
 
 	}
 }
