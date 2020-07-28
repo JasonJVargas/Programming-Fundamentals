@@ -1,4 +1,5 @@
 
+
 public class Box {
 	// Instance variable
 	int size = 0;
