@@ -7,10 +7,13 @@ public class Box {
 	public static void main(String[] args) {
 		// Create a new instance of our "Box" class
 		Box box = new Box();
+		Box box2 = new Box();
 		// Assign the Box size variable
 		box.size = 5;
+		box2.size = 10;
 		// Run our method
 		box.printBox();
+		box2.printBox();
 	}
 	
 	// Method that will print out a box of stars
