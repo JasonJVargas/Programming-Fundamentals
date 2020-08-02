@@ -7,7 +7,7 @@ public class Figures {
 	public static void main(String[] args) {
 		System.out.println("Programming Fundamentals \nNAME: Jason Vargas \nPROGRAMMING ASSIGNMENT 2\n");
 		System.out.print("Enter the size of the figure (odd number): ");
-
+		//
 		Scanner input = new Scanner(System.in);
 		int size;
 		size = input.nextInt();
@@ -29,7 +29,7 @@ public class Figures {
 		menu = option.nextInt();
 
 		System.out.println();
-
+		//If statements to print correct shape based on user input
 		if (menu == 1) {
 			Figures.printBox();
 		}
@@ -53,7 +53,7 @@ public class Figures {
 	static void printBox() {
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size; j++) {
-				// Print in line *
+				// Print in line "X"
 				System.out.print('X');
 			}
 			// Print a new line (next line of the box)
@@ -67,19 +67,19 @@ public class Figures {
 		int i, j;
 		for (i = 1; i <= size; i++) {
 			for (j = size; j > i; j--) {
-				System.out.print(" ");// print space
+				System.out.print(" ");// Print spaces
 			}
-			System.out.print("X");// print star
+			System.out.print("X");// Print "X"
 			for (j = 1; j < (i - 1) * 2; j++) {
 				System.out.print(" ");
 			}
 			if (i == 1) {
-				System.out.print("X\n");// move to next line
+				System.out.print("X\n");// Next line
 			} else {
 				System.out.print(" X\n");
 			}
 		}
-		// print lower triangle
+		// Lower triangle
 		for (i = size - 1; i >= 1; i--) {
 			for (j = size; j > i; j--) {
 				System.out.print(" ");
