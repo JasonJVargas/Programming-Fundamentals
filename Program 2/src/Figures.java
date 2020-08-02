@@ -7,7 +7,7 @@ public class Figures {
 	public static void main(String[] args) {
 		System.out.println("Programming Fundamentals \nNAME: Jason Vargas \nPROGRAMMING ASSIGNMENT 2\n");
 		System.out.print("Enter the size of the figure (odd number): ");
-		//
+		// Ask for user input to manipulate size and only accept it when it is an odd number
 		Scanner input = new Scanner(System.in);
 		int size;
 		size = input.nextInt();
@@ -23,13 +23,13 @@ public class Figures {
 		System.out.println("\nMENU:");
 		System.out.println("1. Print Box \n2. Print Diamond \n3. Print X \n4. Quit program");
 		System.out.print("\nPlease select an option: ");
-
+		// Ask for user input to select an option
 		Scanner option = new Scanner(System.in);
 		int menu;
 		menu = option.nextInt();
 
 		System.out.println();
-		//If statements to print correct shape based on user input
+		// If statements to print correct shape based on user input
 		if (menu == 1) {
 			Figures.printBox();
 		}
