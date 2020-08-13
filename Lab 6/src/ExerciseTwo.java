@@ -2,10 +2,10 @@
 public class ExerciseTwo {
 
 	public static void main(String[] args) {
-
+foo(2);
 	}
 
-	int foo(int N) {
+	static int foo(int N) {
 		int result = 0;
 		for (int i = 0; i < N; i++)
 			result++;
