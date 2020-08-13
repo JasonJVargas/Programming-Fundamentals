@@ -12,7 +12,7 @@ public class UserStrings {
 		String userInput = "";
 
 		Scanner scan = new Scanner(System.in);
-
+		// Create the objects of 3 classes to write to file
 		FileWriter fw = new FileWriter(file);
 		BufferedWriter bw = new BufferedWriter(fw);
 		PrintWriter userStrings = new PrintWriter(bw);
@@ -23,7 +23,7 @@ public class UserStrings {
 		while (!userInput.equals("DONE")) {
 			System.out.println("Enter another string. Enter 'DONE' to exit.");
 			userInput = scan.nextLine();
-			userStrings.print(userInput + "\n");
+			userStrings.print(userInput + "\n"); //Output to file
 		}
 		scan.close();
 		userStrings.close();
