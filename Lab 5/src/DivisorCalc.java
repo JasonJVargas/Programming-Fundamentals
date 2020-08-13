@@ -1,8 +1,9 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class DivisorCalc {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		System.out.println("Enter two numbers to find their greatest common divisor (GCD).");
 
 		Scanner scan = new Scanner(System.in);
